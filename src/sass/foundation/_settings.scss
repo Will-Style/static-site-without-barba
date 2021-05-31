@@ -1,0 +1,154 @@
+// flexboxに対応するか
+$enable-flex : true;
+
+
+
+// グリッドのガター幅
+
+// $grid-columns: 12;
+// $grid-gutter-width: 30px;
+
+
+// 見出し関係
+$h1-font-size:1.8rem;
+$h2-font-size:1.5rem;
+$h3-font-size:1.3rem;
+$h4-font-size:1.2rem;
+$h5-font-size:1.1rem;
+$h6-font-size:1rem;
+
+$headings-margin-bottom:1rem;
+$headings-font-weight:600;
+
+
+// 各種設定
+$enable-caret:                                true;
+$enable-rounded:                              true;
+$enable-shadows:                              false;
+$enable-gradients:                            false;
+$enable-transitions:                          true;
+$enable-prefers-reduced-motion-media-query:   true;
+$enable-hover-media-query:                    false;
+$enable-grid-classes:                         true;
+$enable-pointer-cursor-for-buttons:           true;
+$enable-print-styles:                         true;
+$enable-responsive-font-sizes:                false;
+$enable-validation-icons:                     true;
+$enable-deprecation-messages:                 true;
+
+// ブランドカラー
+
+
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+
+$gray:#8C96A9;
+$base-color:#241E1C;
+
+$primary:#3e82ff;
+// $secondary:;
+// $success:;
+// $info:;
+// $warning:;
+// $danger:;
+// $light:;
+// $dark:;
+
+$spacer: 5px;
+$_spacers: (
+    0: 0,
+    5: 5px,
+    10: 10px,
+    15: 15px,
+    20: 20px,
+    25: 25px,
+    30: 30px,
+    35: 35px,
+    40: 40px,
+    45: 45px,
+    50: 50px,
+    55: 55px,
+    60: 60px,
+    65: 65px,
+    70: 70px,
+    75: 75px,
+    80: 80px,
+    85: 85px,
+    90: 90px,
+    95: 95px,
+    100: 100px,
+    // 105: 105px,
+    // 110: 110px,
+    // 115: 115px,
+    // 120: 120px,
+    // 125: 125px,
+    // 130: 130px,
+    // 135: 135px,
+    // 140: 140px,
+    // 145: 145px,
+    // 150: 150px,
+) ;
+
+$header-height:80px;
+$header-height-md:60px;
+$header-height-sm:55px;
+
+$component-active-color: #fff;
+
+// チェックボックスやラジオボタンの色
+$component-active-bg: $primary;
+
+$brand-twitter:#1da1f3;
+$brand-facebook:#4267B2;
+
+//パンくずの背景色
+$breadcrumb-bg:transparent;
+
+$padding-base-vertical:12px;
+$padding-base-horizontal:20px;
+
+//　テーブル関連
+$table-cell-padding : .8rem 1.5rem;
+$table-border-color : #e8e8e8;
+
+// ボタン関連
+$btn-padding-y:.7rem ;
+$btn-padding-x:1.5rem ;
+
+// フォーム関連
+$input-btn-padding-y: .5rem;
+$input-btn-padding-x: .8rem;
+$input-border-color:#ddd;
+
+$font-weight-light:300;
+$font-weight-normal:300;
+$font-weight-bold:500;
+
+
+//　角丸
+$border-radius: 4px;
+$input-border-radius: 4px ;
+$custom-select-border-radius: 4px;
+
+// カード関連
+$card-border-color:#e8e8e8;
+
+// ベースフォント
+$base-font:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Hiragino Sans, 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+// 明朝フォント
+$min-font: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","游明朝体",YuMincho, "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", serif;
+
+
+$icon-font-family: "Font Awesome 5 Pro";
+$icon-font-family-brands: "Font Awesome 5 Brands";
+$icon-font-family-duotone: "Font Awesome 5 Brands Duotone";
+
+

@@ -1,0 +1,22 @@
+
+<button id="js-hamburger" class="l-hamburger" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only sr-only-focusable">メニューを開閉する</span>
+    <span class="js-hamburger__bar l-hamburger__bar" aria-hidden="true"></span>
+</button>
+<nav id="js-drawer" class="l-drawer" aria-labelledby="js-hamburger">
+    <div class="container">
+        
+        <div class="l-drawer__wrapper">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="l-drawer__nav">
+                        <li class="l-drawer__nav--item"><a href="<%- path %>/" class="l-drawer__nav--link"><span class="l-drawer__nav--str">トップページ</span></a></li>
+                        <li class="l-drawer__nav--item"><a href="<%- path %>information/" class="l-drawer__nav--link"><span class="l-drawer__nav--str">お知らせ</span></a></li>
+                        <li class="l-drawer__nav--item"><a href="<%- path %>blog/" class="l-drawer__nav--link"><span class="l-drawer__nav--str">ブログ</span></a></li>
+                        <li class="l-drawer__nav--item"><a href="<%- path %>contact/" class="l-drawer__nav--link"><span class="l-drawer__nav--str">お問い合わせ</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
