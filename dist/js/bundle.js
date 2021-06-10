@@ -1716,10 +1716,10 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/mineo/workspace/CODE/static-site-ex-barba/src/js/app.js */"./src/js/app.js");
-__webpack_require__(/*! /Users/mineo/workspace/CODE/static-site-ex-barba/src/sass/icons.scss */"./src/sass/icons.scss");
-__webpack_require__(/*! /Users/mineo/workspace/CODE/static-site-ex-barba/src/sass/noscript.scss */"./src/sass/noscript.scss");
-module.exports = __webpack_require__(/*! /Users/mineo/workspace/CODE/static-site-ex-barba/src/sass/styles.scss */"./src/sass/styles.scss");
+__webpack_require__(/*! /Users/mineo/workspace/CODE/without-barba/src/js/app.js */"./src/js/app.js");
+__webpack_require__(/*! /Users/mineo/workspace/CODE/without-barba/src/sass/icons.scss */"./src/sass/icons.scss");
+__webpack_require__(/*! /Users/mineo/workspace/CODE/without-barba/src/sass/noscript.scss */"./src/sass/noscript.scss");
+module.exports = __webpack_require__(/*! /Users/mineo/workspace/CODE/without-barba/src/sass/styles.scss */"./src/sass/styles.scss");
 
 
 /***/ })
